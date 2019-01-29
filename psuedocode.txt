@@ -1,0 +1,24 @@
+
+RECTANGLE DRAWING FUNCTION: WILL TAKE FIVE VARS:
+  - X COORDINATE OF TOP LEFT CORNER;
+  - Y COORDINATE OF TOP LEFT CORNER;
+  - WIDTH OF RECTANGLE IN UNITS; [4]
+  - HEIGHT OF RECTANGLE IN UNITS; [6]
+  - ARRAY TO BE CHANGED (MUST BE 2D);
+
+
+  DECLARE VARIABLES:
+  I AS INTEGER; J AS INTEGER;
+
+
+  FOR LOOP: [WIDTH OF RECTANGLE TIMES]: FOR(I=0;I<WIDTH;I++)
+      FOR LOOP [HEIGHT OF RECTANGLE TIMES]: FOR(J=1;J<HEIGHT;J++)
+          ARRAY[X+1(I)][Y+5(J)] = " # ";
+
+[  -  #  #  -  -  -  -  -  -  -  -  -  -  -  -  ]
+[  -  #  #  -  -  -  -  -  -  -  -  -  -  -  -  ]
+[  -  #  -  -  -  -  -  -  -  -  -  -  -  -  -  ]
+[  -  #  -  -  -  -  -  -  -  -  -  -  -  -  -  ]
+[  -  #  -  -  -  -  -  -  -  -  -  -  -  -  -  ]
+[  -  #  -  -  -  -  -  -  -  -  -  -  -  -  -  ]
+[  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  ]
